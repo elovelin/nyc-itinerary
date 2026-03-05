@@ -7,77 +7,77 @@ const TRIP_START = new Date('2026-03-15'); // ← SET YOUR SUNDAY ARRIVAL DATE
 
 const DAYS = [
   {
-    day: 'Sunday', emoji: '☀️', theme: '#F59E0B',
+    day: 'Sunday', label: 'SUN', theme: '#F59E0B',
     title: 'Arrival Night',
     items: [
-      '✈️ Arrive JFK ~7 PM',
-      '🚇 AirTrain → Subway → Moxy',
-      '🍕 Joe\'s / Momofuku / Ruby\'s',
-      '🍦 Van Leeuwen Ice Cream'
+      'Arrive JFK ~7 PM',
+      'AirTrain > Subway > Moxy',
+      'Joe\'s / Momofuku / Ruby\'s',
+      'Van Leeuwen Ice Cream'
     ]
   },
   {
-    day: 'Monday', emoji: '🌉', theme: '#3B82F6',
+    day: 'Monday', label: 'MON', theme: '#3B82F6',
     title: 'Brooklyn Adventure',
     items: [
-      '🚶 Brooklyn Bridge → DUMBO',
-      '📸 Washington St photo op',
-      '🎠 Jane\'s Carousel',
-      '🍕 Juliana\'s / Time Out Market',
-      '🚇 Transit Museum → Promenade',
-      '⛴️ Staten Island Ferry (optional)',
-      '🍴 Tacombi / Ruby\'s / Shake Shack'
+      'Brooklyn Bridge > DUMBO',
+      'Washington St photo op',
+      'Jane\'s Carousel',
+      'Juliana\'s / Time Out Market',
+      'Transit Museum > Promenade',
+      'Staten Island Ferry (optional)',
+      'Tacombi / Ruby\'s / Shake Shack'
     ]
   },
   {
-    day: 'Tuesday', emoji: '🔢', theme: '#8B5CF6',
+    day: 'Tuesday', label: 'TUE', theme: '#8B5CF6',
     title: 'Math + Neighborhood',
     items: [
-      '🔢 MoMath ~10 AM (1.5–2 hrs)',
-      '🍽️ Eataly / Tacombi / Daily Provisions',
-      '🌿 Madison Square Park',
-      '📸 Flatiron Building photo',
-      '🚶 Washington Sq / East Village',
-      '😌 Relaxed evening near hotel'
+      'MoMath ~10 AM (1.5-2 hrs)',
+      'Eataly / Tacombi / Daily Provisions',
+      'Madison Square Park',
+      'Flatiron Building photo',
+      'Washington Sq / East Village',
+      'Relaxed evening near hotel'
     ]
   },
   {
-    day: 'Wednesday', emoji: '🎭', theme: '#EC4899',
+    day: 'Wednesday', label: 'WED', theme: '#EC4899',
     title: 'Broadway Day',
     items: [
-      '🧸 Camp Store → Books → Strand',
-      '🏛️ Grand Central → Bryant Park',
-      '🌮 Los Tacos No.1 / Urban Hawker',
-      '🎭 ALADDIN 1:00 PM',
-      '🗽 Times Square → NBA Store',
-      '🚡 Roosevelt Island Tram',
-      '🍴 Ruby\'s / Tacombi / Serafina'
+      'Camp Store > Books > Strand',
+      'Grand Central > Bryant Park',
+      'Los Tacos No.1 / Urban Hawker',
+      'ALADDIN 1:00 PM',
+      'Times Square > NBA Store',
+      'Roosevelt Island Tram',
+      'Ruby\'s / Tacombi / Serafina'
     ]
   },
   {
-    day: 'Thursday', emoji: '🦕', theme: '#10B981',
+    day: 'Thursday', label: 'THU', theme: '#10B981',
     title: 'Dinosaurs + Skyline',
     items: [
-      '🦕 Natural History Museum',
-      '🍕 Patsy\'s Pizza / Shake Shack',
-      '🌳 Central Park + playground',
-      '🧸 FAO Schwarz / LEGO / Nintendo',
-      '🌇 Top of the Rock sunset',
-      '🇪🇸 Mercado Little Spain',
-      '🏗️ Vessel → High Line walk'
+      'Natural History Museum',
+      'Patsy\'s Pizza / Shake Shack',
+      'Central Park + playground',
+      'FAO Schwarz / LEGO / Nintendo',
+      'Top of the Rock sunset',
+      'Mercado Little Spain',
+      'Vessel > High Line walk'
     ]
   },
   {
-    day: 'Friday', emoji: '✈️', theme: '#F97316',
+    day: 'Friday', label: 'FRI', theme: '#F97316',
     title: 'Aviation Day',
     items: [
-      '🥬 Union Square Greenmarket',
-      '☕ Daily Provisions breakfast',
-      '🍜 Xi\'an Famous Foods lunch',
-      '🚇 Transit to JFK → TWA Hotel',
-      '✈️ Aviation exhibits & planes',
-      '🛫 Runway observation deck',
-      '🍸 Connie Cocktail Lounge'
+      'Union Square Greenmarket',
+      'Daily Provisions breakfast',
+      'Xi\'an Famous Foods lunch',
+      'Transit to JFK > TWA Hotel',
+      'Aviation exhibits & planes',
+      'Runway observation deck',
+      'Connie Cocktail Lounge'
     ]
   }
 ];
@@ -137,7 +137,7 @@ if (!today) {
   header.layoutHorizontally();
   header.centerAlignContent();
 
-  const dayLabel = header.addText(`${today.emoji} ${today.day}`);
+  const dayLabel = header.addText(`${today.label} | ${today.day}`);
   dayLabel.font = Font.boldSystemFont(15);
   dayLabel.textColor = Color.white();
 
