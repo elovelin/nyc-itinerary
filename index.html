@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NYC Family Vacation — Final Plan</title>
+<style>
+  :root {
+    --sun: #F59E0B;
+    --mon: #3B82F6;
+    --tue: #8B5CF6;
+    --wed: #EC4899;
+    --thu: #10B981;
+    --fri: #F97316;
+    --bg: #F8FAFC;
+    --card: #FFFFFF;
+    --text: #1E293B;
+    --muted: #64748B;
+    --subtle: #F1F5F9;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    padding: 1rem;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+  h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: .25rem;
+  }
+  .subtitle {
+    text-align: center;
+    color: var(--muted);
+    font-size: .85rem;
+    margin-bottom: 1.25rem;
+  }
+  .info-banner {
+    background: linear-gradient(135deg, #EFF6FF, #DBEAFE);
+    border-radius: 12px;
+    padding: .6rem .85rem;
+    margin-bottom: .75rem;
+    font-size: .8rem;
+    color: #1E40AF;
+  }
+  .info-banner strong {
+    display: block;
+    font-size: .68rem;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    color: #1E3A8A;
+    margin-bottom: .15rem;
+  }
+  .day-card {
+    background: var(--card);
+    border-radius: 16px;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,.08);
+    overflow: hidden;
+  }
+  .day-header {
+    padding: .75rem 1rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .day-header .tag {
+    background: rgba(255,255,255,.25);
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: .7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+  }
+  .day-body { padding: .75rem 1rem 1rem; }
+  .section {
+    margin-bottom: .65rem;
+  }
+  .section:last-child { margin-bottom: 0; }
+  .section-label {
+    font-size: .65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    color: var(--muted);
+    margin-bottom: .2rem;
+  }
+  .item {
+    font-size: .85rem;
+    padding: 2px 0;
+  }
+  .highlight {
+    background: var(--subtle);
+    border-radius: 8px;
+    padding: .45rem .65rem;
+    margin: .3rem 0;
+    font-size: .85rem;
+  }
+  .highlight strong { font-weight: 700; }
+  .transit-box {
+    background: #EFF6FF;
+    border-left: 3px solid #3B82F6;
+    border-radius: 0 8px 8px 0;
+    padding: .4rem .65rem;
+    margin: .3rem 0;
+    font-size: .78rem;
+    color: #1E40AF;
+  }
+  .transit-box.green {
+    background: #F0FDF4;
+    border-left-color: #22C55E;
+    color: #166534;
+  }
+  .divider {
+    border: none;
+    border-top: 1px dashed #E2E8F0;
+    margin: .5rem 0;
+  }
+  .tip {
+    font-size: .75rem;
+    color: var(--muted);
+    font-style: italic;
+  }
+  .star { color: var(--sun); }
+  .breakfast-banner {
+    background: linear-gradient(135deg, #FEF3C7, #FDE68A);
+    border-radius: 12px;
+    padding: .6rem .85rem;
+    margin-bottom: .75rem;
+    font-size: .82rem;
+  }
+  .breakfast-banner strong {
+    display: block;
+    font-size: .7rem;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    color: #92400E;
+    margin-bottom: .15rem;
+  }
+  .flex-reminder {
+    background: linear-gradient(135deg, #F0FDF4, #DCFCE7);
+    border-radius: 12px;
+    padding: .5rem .85rem;
+    margin-bottom: 1.25rem;
+    font-size: .78rem;
+    color: #166534;
+  }
+</style>
+</head>
+<body>
+
+<h1>🗽 NYC Family Vacation</h1>
+<p class="subtitle">Sunday → Friday · Final Plan</p>
+
+<div class="info-banner">
+  <strong>🏨 Hotels</strong>
+  <strong style="font-size:.82rem; text-transform:none; letter-spacing:0;">Moxy East Village</strong> (Sun–Thu) → <strong style="font-size:.82rem; text-transform:none; letter-spacing:0;">TWA Hotel</strong> (Fri night)
+</div>
+
+<div class="breakfast-banner">
+  <strong>☕ Breakfast Spots All Week</strong>
+  La Cabra · Daily Provisions · Librae Bakery
+</div>
+
+<div class="flex-reminder">
+  💡 Build in 30–45 min of flex time every afternoon.
+</div>
+
+<!-- ============ SUNDAY ============ -->
+<div class="day-card">
+  <div class="day-header" style="background:var(--sun)">
+    <span>☀️ Sunday — Arrival Night</span>
+    <span class="tag">Day 1</span>
+  </div>
+  <div class="day-body">
+    <div class="section">
+      <div class="section-label">✈️ Arrive JFK ~7 PM</div>
+      <div class="transit-box">
+        AirTrain → Subway → <strong>Moxy East Village</strong>
+      </div>
+    </div>
+    <hr class="divider">
+    <div class="section">
+      <div class="section-label">🍕 Dinner Near Hotel</div>
+      <div class="item">🍕 Joe's Pizza</div>
+      <div class="item">🍜 Momofuku Noodle Bar</div>
+      <div class="item">☕ Ruby's Café</div>
+    </div>
+    <div class="section">
+      <div class="section-label">🍦 Dessert</div>
+      <div class="item">🍦 Van Leeuwen Ice Cream</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ MONDAY ============ -->
+<div class="day-card">
+  <div class="day-header" style="background:var(--mon)">
+    <span>🌉 Monday — Brooklyn Bridge + Harbor</span>
+    <span class="tag">Day 2</span>
+  </div>
+  <div class="day-body">
+    <div class="section">
+      <div class="transit-box">
+        Union Square → <strong>4 / 5</strong> → Brooklyn Bridge / City Hall
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-label">🌅 Morning</div>
+      <div class="item">🚶 Walk Brooklyn Bridge</div>
+      <div class="item">📸 Explore DUMBO</div>
+      <div class="highlight">
+        <span class="star">⭐</span> <strong>Washington Street</strong> — Manhattan Bridge photo op
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-label">😌 Kid Rest Stop</div>
+      <div class="item">🎠 Jane's Carousel</div>
+      <div class="item">🏖️ Pebble Beach</div>
+    </div>
+    <div class="section">
+      <div class="section-label">🍽️ Lunch · DUMBO</div>
+      <div class="item">🍕 Juliana's Pizza</div>
+      <div class="item">🏬 Time Out Market</div>
+    </div>
+    <hr class="divider">
+    <div class="section">
+      <div class="section-label">⛴️ Afternoon</div>
+      <div class="transit-box green">
+        Subway → Whitehall St → <strong>Staten Island Ferry</strong> (FREE!)
+      </div>
+      <p class="tip">Great Statue of Liberty & skyline views</p>
+    </div>
+    <hr class="divider">
+    <div class="section">
+      <div class="section-label">🍴 Dinner · Near Hotel</div>
+      <div class="item">🌮 Tacombi</div>
+      <div class="item">🍔 Shake Shack (Madison Square Park)</div>
+    </div>
+    <div class="section">
+      <div class="section-label">🍦 Dessert</div>
+      <div class="item">🥐 Daily Provisions cruller</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ TUESDAY ============ -->
+<div class="day-card">
+  <div class="day-header" style="background:var(--tue)">
+    <span>🚇 Tuesday — Transit Nerd Day</span>
+    <span class="tag">Day 3</span>
+  </div>
+  <div class="day-body">
+    <div class="section">
+      <div class="transit-box">
+        Union Square → <strong>4 / 5</strong> → Borough Hall
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-label">🏛️ Morning</div>
+      <div class="highlight">
+        <span class="star">⭐</span> <strong>NY Transit Museum</strong> — kids explore real vintage subway cars!
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-label">🍽️ Lunch</div>
+      <div class="item">🍰 Junior's Restaurant <span class="tip">(get the cheesecake)</span></div>
+    </div>
+    <hr class="divider">
+    <div class="section">
+      <div class="section-label">🌇 Afternoon</div>
+      <div class="highlight">
+        <span class="star">⭐</span> <strong>Brooklyn Heights Promenade</strong> — best skyline view in NYC
+      </div>
+      <div class="item">🚇 Ride a few subway lines just for fun <span class="tip">(optional)</span></div>
+    </div>
+    <hr class="divider">
+    <div class="section">
+      <div class="section-label">🍴 Dinner</div>
+      <div class="item">🍝 Serafina (Union Square)</div>
+    </div>
+    <div class="section">
+      <div class="section-label">🍦 Dessert</div>
+      <div class="item">🍦 Van Leeuwen</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ WEDNESDAY ============ -->
+<div class="day-card">
+  <div class="day-header" style="background:var(--wed)">
+    <span>🎭 Wednesday — Toys + Broadway + Tram</span>
+    <span class="tag">Day 4</span>
+  </div>
+  <div class="day-body">
+    <div class="section">
+      <div class="section-label">🌅 Morning · Near Hotel</div>
+      <div class="item">☕ Daily Provisions or La Cabra</div>
+      <div class="item">🧸 Camp Store</div>
+      <div class="item">📚 Books of Wonder · Strand Bookstore</div>
+    </div>
+    <div class="section">
+      <div class="section-label">🏛️ Late Morning → Midtown</div>
+      <div class="transit-box">
+        Union Square → <strong>4 / 5 / 6</strong> → Grand Central
+      </div>
+      <div class="item">🏛️ Grand Central Terminal</div>
+      <div class="highlight">
+        <span class="star">⭐</span> <strong>Whispering Gallery</strong> — whisper in the corner!
+      </div>
+      <div class="item">🌿 Bryant Park · NY Public Library</div>
+    </div>
+    <div class="section">
+      <div class="section-label">🍽️ Lunch · Near Times Square</div>
+      <div class="item">🌮 Los Tacos No. 1</div>
+      <div class="item">🍜 Urban Hawker</div>
+    </div>
+    <hr class="divider">
+    <div class="section">
+      <div class="highlight" style="background:#FDF2F8; text-align:center;">
+        🎭 <strong>ALADDIN</strong> · New Amsterdam Theatre<br>
+        <span style="font-size:.75rem; color:var(--muted);">1:00 PM → ~3:30 PM</span>
+      </div>
+    </div>
+    <hr class="divider">
+    <div class="section">
+      <div class="section-label">🏙️ After Show</div>
+      <div class="item">🗽 Quick walk through Times Square</div>
+      <div class="item">🏀 NBA Store</div>
+    </div>
+    <div class="section">
+      <div class="section-label">🚡 Transit Adventure</div>
+      <div class="transit-box green">
+        <strong>Roosevelt Island Tramway</strong> — amazing skyline views!
+      </div>
+    </div>
+    <hr class="divider">
+    <div class="section">
+      <div class="section-label">🍴 Dinner · Near Hotel (Easy Evening)</div>
+      <div class="item">☕ Ruby's Café</div>
+      <div class="item">🌮 Tacombi</div>
+      <div class="item">🍝 Serafina</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ THURSDAY ============ -->
+<div class="day-card">
+  <div class="day-header" style="background:var(--thu)">
+    <span>🔬 Thursday — Science + Skyline Day</span>
+    <span class="tag">Day 5</span>
+  </div>
+  <div class="day-body">
+    <div class="section">
+      <div class="section-label">🌅 Morning</div>
+      <div class="item">☕ Breakfast near hotel</div>
+    </div>
+    <div class="section">
+      <div class="section-label">🔢 Late Morning · ~10 AM</div>
+      <div class="highlight">
+        <span class="star">⭐</span> <strong>National Museum of Mathematics (MoMath)</strong>
+        <br><span class="tip">Allow 1.5–2 hours</span>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-label">🍽️ Lunch · Flatiron</div>
+      <div class="item">🇮🇹 Eataly Flatiron</div>
+      <div class="item">🌮 Tacombi</div>
+    </div>
+    <hr class="divider">
+    <div class="section">
+      <div class="transit-box">
+        Union Square → <strong>Q</strong> → Upper West Side
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-label">🦕 Afternoon</div>
+      <div class="highlight">
+        <span class="star">⭐</span> <strong>American Museum of Natural History</strong>
+        <br>🦖 Dinosaurs · 🐋 Giant blue whale · 🚀 Space exhibits
+      </div>
+      <div class="item">🌳 Central Park playground break</div>
+    </div>
+    <hr class="divider">
+    <div class="section">
+      <div class="section-label">🌆 Evening · Rockefeller Center</div>
+      <div class="highlight">
+        🧸 <strong>FAO Schwarz</strong> · 🧱 <strong>LEGO Store</strong> · 🎮 <strong>Nintendo NYC</strong>
+      </div>
+      <div class="highlight" style="background:#FEF3C7;">
+        <span class="star">⭐</span> <strong>Top of the Rock</strong> — best sunset skyline view in NYC
+      </div>
+    </div>
+    <hr class="divider">
+    <div class="section">
+      <div class="section-label">🍴 Dinner · Near Hudson Yards</div>
+      <div class="item">🇪🇸 Mercado Little Spain</div>
+      <div class="item">🍕 Pizza Suprema</div>
+    </div>
+    <div class="section">
+      <div class="section-label">🌃 After-Dinner Walk</div>
+      <div class="item">🏗️ Vessel</div>
+      <div class="item">🌿 Walk part of the High Line</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ FRIDAY ============ -->
+<div class="day-card">
+  <div class="day-header" style="background:var(--fri)">
+    <span>✈️ Friday — Union Square + TWA</span>
+    <span class="tag">Day 6</span>
+  </div>
+  <div class="day-body">
+    <div class="section">
+      <div class="section-label">🌅 Morning</div>
+      <div class="item">🥬 Union Square Greenmarket</div>
+      <div class="item">☕ Daily Provisions <span class="tip">(breakfast)</span></div>
+    </div>
+    <div class="section">
+      <div class="section-label">🍽️ Lunch</div>
+      <div class="item">🍜 Xi'an Famous Foods</div>
+    </div>
+    <hr class="divider">
+    <div class="section">
+      <div class="transit-box">
+        Transit to JFK → <strong>AirTrain</strong> → TWA Hotel
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-label">✈️ TWA Hotel Explore</div>
+      <div class="highlight">
+        ✈️ Aviation exhibits · Vintage airplanes · Rooftop runway viewing
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-label">🍸 Dinner</div>
+      <div class="highlight">
+        🍸 <strong>Connie Cocktail Lounge</strong> — dine inside a retro airplane!
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
