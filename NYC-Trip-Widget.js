@@ -108,19 +108,17 @@ if (!today) {
 
   if (daysUntil > 0) {
     w.backgroundGradient = buildGradient('#1E293B', '#334155');
-    const emoji = w.addText('🗽');
-    emoji.font = Font.systemFont(28);
-    emoji.centerAlignText();
-    w.addSpacer(4);
+    w.addSpacer();
     const ct = w.addText(`${daysUntil} day${daysUntil === 1 ? '' : 's'} to NYC!`);
-    ct.font = Font.boldSystemFont(18);
+    ct.font = Font.boldSystemFont(22);
     ct.textColor = Color.white();
     ct.centerAlignText();
     w.addSpacer(4);
     const sub = w.addText('Moxy East Village → TWA Hotel');
-    sub.font = Font.systemFont(11);
+    sub.font = Font.systemFont(12);
     sub.textColor = new Color('#94A3B8');
     sub.centerAlignText();
+    w.addSpacer();
   } else {
     w.backgroundGradient = buildGradient('#1E293B', '#334155');
     const done = w.addText('🗽 Trip complete!');
