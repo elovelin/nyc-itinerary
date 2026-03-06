@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nyc-trip-v3';
+const CACHE_NAME = 'nyc-trip-v4';
 const ASSETS = [
   '/nyc-itinerary/',
   '/nyc-itinerary/index.html',

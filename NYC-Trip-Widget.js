@@ -31,14 +31,15 @@ const DAYS = [
   },
   {
     day: 'Tuesday', label: 'TUE', theme: '#8B5CF6',
-    title: 'Math + Neighborhood',
+    title: 'Math + Midtown',
     items: [
       'MoMath ~10 AM (1.5-2 hrs)',
       'Eataly / Tacombi / Daily Provisions',
-      'Madison Square Park',
-      'Flatiron Building photo',
-      'Washington Sq / East Village',
-      'Relaxed evening near hotel'
+      'Subway to Grand Central',
+      'Grand Central Whispering Gallery',
+      'Bryant Park > NY Public Library',
+      'Times Square preview (optional)',
+      'Relaxed dinner near hotel'
     ]
   },
   {
@@ -46,12 +47,12 @@ const DAYS = [
     title: 'Broadway Day',
     items: [
       'Camp Store > Books > Strand',
-      'Grand Central > Bryant Park',
       'Los Tacos No.1 / Urban Hawker',
       'ALADDIN 1:00 PM',
       'Times Square > NBA Store',
       'Roosevelt Island Tram',
-      'Ruby\'s / Tacombi / Serafina'
+      'Ruby\'s / Tacombi / Serafina',
+      'Easy night'
     ]
   },
   {
@@ -71,12 +72,12 @@ const DAYS = [
     day: 'Friday', label: 'FRI', theme: '#F97316',
     title: 'Aviation Day',
     items: [
-      'Union Square Greenmarket',
-      'Daily Provisions breakfast',
+      'Option A: Greenmarket + Daily Provisions',
+      'Option B: Intrepid Museum (~90 min)',
       'Xi\'an Famous Foods lunch',
       'Transit to JFK > TWA Hotel',
-      'Aviation exhibits & planes',
-      'Runway observation deck',
+      'Aviation exhibits & vintage planes',
+      'Runway viewing deck',
       'Connie Cocktail Lounge'
     ]
   }
