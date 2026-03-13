@@ -18,15 +18,15 @@ const DAYS = [
   },
   {
     day: 'Monday', label: 'MON', theme: '#3B82F6',
-    title: 'Brooklyn Adventure',
+    title: 'Dinosaurs + Skyline',
     items: [
-      'Brooklyn Bridge > DUMBO',
-      'Washington St photo op',
-      'Jane\'s Carousel',
-      'Juliana\'s / Time Out Market',
-      'Transit Museum > Promenade',
-      'Staten Island Ferry (optional)',
-      'Tacombi / Ruby\'s / Shake Shack'
+      'Natural History Museum',
+      'Patsy\'s Pizza / Shake Shack',
+      'Central Park + playground',
+      'FAO Schwarz / LEGO / Nintendo',
+      'Top of the Rock sunset',
+      'Mercado Little Spain',
+      'Vessel > High Line walk'
     ]
   },
   {
@@ -57,15 +57,15 @@ const DAYS = [
   },
   {
     day: 'Thursday', label: 'THU', theme: '#10B981',
-    title: 'Dinosaurs + Skyline',
+    title: 'Brooklyn Adventure',
     items: [
-      'Natural History Museum',
-      'Patsy\'s Pizza / Shake Shack',
-      'Central Park + playground',
-      'FAO Schwarz / LEGO / Nintendo',
-      'Top of the Rock sunset',
-      'Mercado Little Spain',
-      'Vessel > High Line walk'
+      'Brooklyn Bridge > DUMBO',
+      'Washington St photo op',
+      'Jane\'s Carousel',
+      'Juliana\'s / Time Out Market',
+      'Transit Museum > Promenade',
+      'Staten Island Ferry (optional)',
+      'Tacombi / Ruby\'s / Shake Shack'
     ]
   },
   {
