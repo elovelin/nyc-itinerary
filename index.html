@@ -13,6 +13,7 @@
   :root {
     --sun: #F59E0B; --mon: #3B82F6; --tue: #8B5CF6;
     --wed: #EC4899; --thu: #10B981; --fri: #F97316;
+    --sat: #6366F1;
     --bg: #F8FAFC; --card: #FFFFFF; --text: #1E293B;
     --muted: #64748B; --subtle: #F1F5F9;
   }
@@ -207,6 +208,7 @@
       <hr class="divider">
       <div class="section-label">🍕 Dinner Near Hotel</div>
       <label class="check-item" data-id="sun-joes"><input type="checkbox"><span class="label-text">🍕 Joe's Pizza</span></label>
+      <label class="check-item" data-id="sun-westville"><input type="checkbox"><span class="label-text">🥗 Westville</span></label>
       <label class="check-item" data-id="sun-momo"><input type="checkbox"><span class="label-text">🍜 Momofuku Noodle Bar</span></label>
       <label class="check-item" data-id="sun-ruby"><input type="checkbox"><span class="label-text">☕ Ruby's Café</span></label>
       <hr class="divider">
@@ -217,176 +219,172 @@
 
     <!-- ═══════ MONDAY ═══════ -->
     <div class="day-panel" data-day="1">
-      <div class="day-title">🦕 Monday — Dinosaurs + Skyline <span class="badge" style="background:var(--mon)">Day 2</span></div>
+      <div class="day-title">🌧️ Monday — Rain Plan / Museums + Toy Stores <span class="badge" style="background:var(--mon)">Day 2</span></div>
 
-      <div class="transit-box">Union Square → <strong>Q</strong> → Upper West Side</div>
+      <div class="section-label">🏛️ Morning — Grand Central Terminal</div>
+      <label class="check-item" data-id="mon-grand"><input type="checkbox"><span class="label-text">🏛️ Grand Central Terminal</span></label>
+      <div class="highlight">
+        Things to do in Grand Central:<br>
+        🌌 Main concourse ceiling<br>
+        🗣️ Whispering gallery<br>
+        🚂 Train watching<br>
+        🥨 Grand Central Market snack
+      </div>
 
-      <div class="section-label">🦕 Morning</div>
+      <hr class="divider">
+      <div class="section-label">🦕 American Museum of Natural History</div>
       <label class="check-item" data-id="mon-amnh"><input type="checkbox"><span class="label-text"><strong>American Museum of Natural History</strong></span></label>
       <div class="highlight">🦖 Dinosaurs · 🐋 Blue whale hall · 🚀 Space exhibits</div>
 
-      <div class="section-label">🍽️ Lunch Nearby</div>
-      <label class="check-item" data-id="mon-patsy"><input type="checkbox"><span class="label-text">🍕 Patsy's Pizza (Upper East Side)</span></label>
+      <div class="section-label">🍽️ Lunch (Upper West Side)</div>
+      <label class="check-item" data-id="mon-lunch"><input type="checkbox"><span class="label-text">🍽️ Casual nearby lunch</span></label>
+      <label class="check-item" data-id="mon-patsy"><input type="checkbox"><span class="label-text">🍕 Patsy's Pizza (Upper West Side)</span></label>
       <label class="check-item" data-id="mon-shake"><input type="checkbox"><span class="label-text">🍔 Shake Shack</span></label>
 
       <hr class="divider">
-      <div class="section-label">🌳 Afternoon</div>
-      <label class="check-item" data-id="mon-park"><input type="checkbox"><span class="label-text">🌿 Walk through Central Park</span></label>
-      <label class="check-item" data-id="mon-playground"><input type="checkbox"><span class="label-text">🛝 Playground break</span></label>
-
-      <hr class="divider">
-      <div class="section-label">🌆 Evening · Rockefeller Center</div>
+      <div class="section-label">🏙️ Afternoon — Midtown Indoor Stops</div>
       <label class="check-item" data-id="mon-fao"><input type="checkbox"><span class="label-text">🧸 FAO Schwarz</span></label>
-      <label class="check-item" data-id="mon-lego"><input type="checkbox"><span class="label-text">🧱 LEGO Store</span></label>
-      <label class="check-item" data-id="mon-nintendo"><input type="checkbox"><span class="label-text">🎮 Nintendo NYC</span></label>
-      <div class="highlight" style="background:#FEF3C7;"><span class="star">⭐</span> <strong>Top of the Rock</strong> — best sunset skyline!</div>
-      <label class="check-item" data-id="mon-totr"><input type="checkbox"><span class="label-text">🌇 Top of the Rock</span></label>
+      <label class="check-item" data-id="mon-lego"><input type="checkbox"><span class="label-text">🧱 LEGO Store Rockefeller Center</span></label>
 
       <hr class="divider">
-      <div class="section-label">🍴 Dinner · Near Hudson Yards</div>
+      <div class="section-label">🍴 Dinner · Near Union Square / East Village</div>
       <label class="check-item" data-id="mon-spain"><input type="checkbox"><span class="label-text">🇪🇸 Mercado Little Spain</span></label>
       <label class="check-item" data-id="mon-pizza"><input type="checkbox"><span class="label-text">🍕 Pizza Suprema</span></label>
-
-      <div class="section-label">🌃 After Dinner</div>
-      <label class="check-item" data-id="mon-hy"><input type="checkbox"><span class="label-text">🏙️ Hudson Yards</span></label>
-      <label class="check-item" data-id="mon-vessel"><input type="checkbox"><span class="label-text">🏗️ Vessel</span></label>
-      <label class="check-item" data-id="mon-highline"><input type="checkbox"><span class="label-text">🌿 Walk the High Line</span></label>
       <div class="swipe-hint">← swipe →</div>
     </div>
 
     <!-- ═══════ TUESDAY ═══════ -->
     <div class="day-panel" data-day="2">
-      <div class="day-title">🔢 Tuesday — Math + Midtown <span class="badge" style="background:var(--tue)">Day 3</span></div>
+      <div class="day-title">🔢 Tuesday — MoMath + Library Area <span class="badge" style="background:var(--tue)">Day 3</span></div>
 
-      <div class="section-label">🔢 Morning · ~10 AM</div>
+      <div class="section-label">🔢 Morning</div>
       <label class="check-item" data-id="tue-momath"><input type="checkbox"><span class="label-text"><strong>MoMath</strong> — Natl Museum of Mathematics</span></label>
       <p class="tip">Allow 1.5–2 hours</p>
 
-      <div class="section-label">🍽️ Lunch</div>
+      <div class="section-label">🍽️ Lunch (Flatiron Area)</div>
       <label class="check-item" data-id="tue-eataly"><input type="checkbox"><span class="label-text">🇮🇹 Eataly Flatiron</span></label>
       <label class="check-item" data-id="tue-tacombi"><input type="checkbox"><span class="label-text">🌮 Tacombi</span></label>
       <label class="check-item" data-id="tue-dp"><input type="checkbox"><span class="label-text">🥐 Daily Provisions</span></label>
 
       <hr class="divider">
-      <div class="section-label">🏙️ Afternoon · Midtown Exploration</div>
-      <div class="transit-box">Union Square → <strong>4 / 5 / 6</strong> → Grand Central</div>
-      <label class="check-item" data-id="tue-grand"><input type="checkbox"><span class="label-text">🏛️ Grand Central Terminal</span></label>
-      <div class="highlight"><span class="star">⭐</span> <strong>Whispering Gallery</strong> + Main Concourse</div>
-      <label class="check-item" data-id="tue-bryant"><input type="checkbox"><span class="label-text">🌿 Bryant Park</span></label>
+      <div class="section-label">📚 Afternoon</div>
       <label class="check-item" data-id="tue-nypl"><input type="checkbox"><span class="label-text">📚 New York Public Library</span></label>
-      <label class="check-item" data-id="tue-ts-preview"><input type="checkbox"><span class="label-text">🏙️ Times Square preview (optional)</span></label>
+      <label class="check-item" data-id="tue-bryant"><input type="checkbox"><span class="label-text">🌿 Bryant Park</span></label>
+
+      <div class="section-label">📖 Quick Bonus Stop</div>
+      <label class="check-item" data-id="tue-kino"><input type="checkbox"><span class="label-text">📖 Kinokuniya Bookstore</span></label>
 
       <hr class="divider">
-      <p class="tip">Relaxed dinner near hotel</p>
+      <div class="section-label">🌇 Top of the Rock</div>
+      <div class="highlight" style="background:#FEF3C7;"><span class="star">⭐</span> <strong>Top of the Rock</strong> — best sunset skyline! (Good weather day)</div>
+      <label class="check-item" data-id="tue-totr"><input type="checkbox"><span class="label-text">🌇 Top of the Rock Observation Deck</span></label>
+
+      <hr class="divider">
+      <div class="section-label">🍴 Dinner</div>
+      <p class="tip">Chelsea / Union Square</p>
       <div class="swipe-hint">← swipe →</div>
     </div>
 
     <!-- ═══════ WEDNESDAY ═══════ -->
     <div class="day-panel" data-day="3">
-      <div class="day-title">🎭 Wednesday — Broadway Day <span class="badge" style="background:var(--wed)">Day 4</span></div>
+      <div class="day-title">🎭 Wednesday — Toy + Book Stores → Aladdin <span class="badge" style="background:var(--wed)">Day 4</span></div>
 
-      <div class="section-label">🌅 Morning · Near Hotel</div>
-      <label class="check-item" data-id="wed-breakfast"><input type="checkbox"><span class="label-text">☕ Daily Provisions or La Cabra</span></label>
-      <label class="check-item" data-id="wed-camp"><input type="checkbox"><span class="label-text">🧸 Camp Store</span></label>
-      <label class="check-item" data-id="wed-books"><input type="checkbox"><span class="label-text">📚 Books of Wonder · Strand Bookstore</span></label>
+      <div class="section-label">🌅 Morning</div>
+      <label class="check-item" data-id="wed-camp"><input type="checkbox"><span class="label-text">🧸 CAMP</span></label>
+      <label class="check-item" data-id="wed-books"><input type="checkbox"><span class="label-text">📚 Books of Wonder</span></label>
 
-      <div class="section-label">🍽️ Lunch · Near Theater</div>
+      <div class="section-label">🍽️ Lunch · Theater District</div>
       <label class="check-item" data-id="wed-tacos"><input type="checkbox"><span class="label-text">🌮 Los Tacos No.1</span></label>
       <label class="check-item" data-id="wed-hawker"><input type="checkbox"><span class="label-text">🍜 Urban Hawker</span></label>
 
       <hr class="divider">
+      <div class="section-label">🚶 Afternoon</div>
+      <label class="check-item" data-id="wed-explore"><input type="checkbox"><span class="label-text">🚶 Light exploring</span></label>
+
+      <hr class="divider">
+      <div class="section-label">🎭 Main Event</div>
       <div class="show-card">
         🎭 <strong>ALADDIN</strong> · New Amsterdam Theatre<br>
-        <span style="font-size:.75rem; color:var(--muted);">1:00 PM → ~3:30 PM</span>
+        <span style="font-size:.75rem; color:var(--muted);">Broadway magic! ✨</span>
       </div>
       <label class="check-item" data-id="wed-aladdin"><input type="checkbox"><span class="label-text">🎭 Watch Aladdin!</span></label>
-      <hr class="divider">
-
-      <div class="section-label">🏙️ After Show</div>
-      <label class="check-item" data-id="wed-ts"><input type="checkbox"><span class="label-text">🗽 Walk Times Square</span></label>
-      <label class="check-item" data-id="wed-nba"><input type="checkbox"><span class="label-text">🏀 NBA Store</span></label>
-
-      <div class="section-label">🚡 Transit Adventure</div>
-      <div class="transit-box green"><strong>Roosevelt Island Tramway</strong> — great skyline views!</div>
-      <label class="check-item" data-id="wed-tram"><input type="checkbox"><span class="label-text">🚡 Ride the Tram</span></label>
 
       <hr class="divider">
-      <div class="section-label">🍴 Dinner · Near Hotel</div>
-      <label class="check-item" data-id="wed-dinner"><input type="checkbox"><span class="label-text">Ruby's Café · Tacombi · Serafina</span></label>
-      <p class="tip">Easy night.</p>
+      <div class="section-label">🍴 Dinner · Theater District</div>
+      <label class="check-item" data-id="wed-dinner"><input type="checkbox"><span class="label-text">🍽️ Easy Theater District dinner</span></label>
+      <label class="check-item" data-id="wed-serafina"><input type="checkbox"><span class="label-text">🍝 Serafina</span></label>
       <div class="swipe-hint">← swipe →</div>
     </div>
 
     <!-- ═══════ THURSDAY ═══════ -->
     <div class="day-panel" data-day="4">
-      <div class="day-title">🌉 Thursday — Brooklyn Adventure <span class="badge" style="background:var(--thu)">Day 5</span></div>
+      <div class="day-title">🌉 Thursday — Brooklyn Day <span class="badge" style="background:var(--thu)">Day 5</span></div>
 
-      <div class="transit-box">Union Square → <strong>4 / 5</strong> → Brooklyn Bridge / City Hall</div>
+      <div class="section-label">🚇 Morning</div>
+      <label class="check-item" data-id="thu-transit"><input type="checkbox"><span class="label-text"><strong>🚇 New York Transit Museum</strong></span></label>
 
-      <div class="section-label">🌅 Morning</div>
-      <label class="check-item" data-id="thu-bridge"><input type="checkbox"><span class="label-text">🚶 Walk Brooklyn Bridge</span></label>
-      <label class="check-item" data-id="thu-dumbo"><input type="checkbox"><span class="label-text">📸 Explore DUMBO</span></label>
-      <div class="highlight"><span class="star">⭐</span> <strong>Washington Street</strong> — Manhattan Bridge photo op</div>
-
-      <div class="section-label">🎠 Kid Stop</div>
-      <label class="check-item" data-id="thu-carousel"><input type="checkbox"><span class="label-text">🎠 Jane's Carousel</span></label>
-
-      <div class="section-label">🍽️ Lunch</div>
+      <div class="section-label">🍕 Lunch</div>
       <label class="check-item" data-id="thu-juliana"><input type="checkbox"><span class="label-text">🍕 Juliana's Pizza</span></label>
       <label class="check-item" data-id="thu-timeout"><input type="checkbox"><span class="label-text">🏬 Time Out Market</span></label>
 
       <hr class="divider">
-      <div class="section-label">🏛️ Afternoon</div>
-      <label class="check-item" data-id="thu-transit"><input type="checkbox"><span class="label-text">🚇 NY Transit Museum</span></label>
-      <label class="check-item" data-id="thu-promenade"><input type="checkbox"><span class="label-text">🌇 Brooklyn Heights Promenade</span></label>
+      <div class="section-label">🌉 Afternoon</div>
+      <label class="check-item" data-id="thu-bridge"><input type="checkbox"><span class="label-text">🚶 Walk Brooklyn Bridge</span></label>
+      <label class="check-item" data-id="thu-dumbo"><input type="checkbox"><span class="label-text">📸 Explore DUMBO</span></label>
+      <div class="highlight"><span class="star">⭐</span> <strong>Washington Street</strong> — Manhattan Bridge photo op</div>
 
-      <div class="section-label">⛴️ Optional</div>
-      <div class="transit-box green">Subway → Whitehall St → <strong>Staten Island Ferry</strong> (FREE!)</div>
-      <label class="check-item" data-id="thu-ferry"><input type="checkbox"><span class="label-text">⛴️ Ride Staten Island Ferry</span></label>
+      <div class="section-label">🍦 Snack</div>
+      <label class="check-item" data-id="thu-icecream"><input type="checkbox"><span class="label-text">🍦 Ice cream at Brooklyn Bridge Park</span></label>
 
       <hr class="divider">
-      <div class="section-label">🍴 Dinner · Near Hotel</div>
+      <div class="section-label">🍴 Dinner · Back in Manhattan or DUMBO</div>
       <label class="check-item" data-id="thu-tacombi"><input type="checkbox"><span class="label-text">🌮 Tacombi</span></label>
       <label class="check-item" data-id="thu-ruby"><input type="checkbox"><span class="label-text">☕ Ruby's Café</span></label>
       <label class="check-item" data-id="thu-shake"><input type="checkbox"><span class="label-text">🍔 Shake Shack (Madison Square Park)</span></label>
-      <div class="section-label">🍦 Dessert</div>
-      <label class="check-item" data-id="thu-cruller"><input type="checkbox"><span class="label-text">🥐 Daily Provisions cruller</span></label>
       <div class="swipe-hint">← swipe →</div>
     </div>
 
     <!-- ═══════ FRIDAY ═══════ -->
     <div class="day-panel" data-day="5">
-      <div class="day-title">✈️ Friday — Aviation Day <span class="badge" style="background:var(--fri)">Day 6</span></div>
+      <div class="day-title">✈️ Friday — Aviation Day → TWA Hotel <span class="badge" style="background:var(--fri)">Day 6</span></div>
 
-      <div class="section-label">🌅 Morning · Choose Your Adventure</div>
-      <div class="highlight" style="background:#EFF6FF;">
-        <strong>Option A — Relaxed</strong>
-      </div>
-      <label class="check-item" data-id="fri-market"><input type="checkbox"><span class="label-text">🥬 Union Square Greenmarket</span></label>
-      <label class="check-item" data-id="fri-breakfast"><input type="checkbox"><span class="label-text">☕ Breakfast at Daily Provisions</span></label>
-      <div class="highlight" style="background:#F0FDF4;">
-        <strong>Option B — Plane Bonus</strong>
-      </div>
+      <div class="section-label">🌅 Morning (Optional)</div>
       <label class="check-item" data-id="fri-intrepid"><input type="checkbox"><span class="label-text">🚢 Intrepid Sea, Air & Space Museum</span></label>
       <p class="tip">Aircraft carrier with jets & space shuttle · ~90 min</p>
 
-      <div class="section-label">🍽️ Lunch</div>
+      <div class="section-label">🍽️ Lunch · Midtown</div>
       <label class="check-item" data-id="fri-xian"><input type="checkbox"><span class="label-text">🍜 Xi'an Famous Foods</span></label>
 
       <hr class="divider">
-      <div class="transit-box">Transit to JFK → <strong>AirTrain</strong> → TWA Hotel</div>
+      <div class="section-label">🚕 Afternoon</div>
+      <div class="transit-box">Travel to JFK → <strong>AirTrain</strong> → TWA Hotel</div>
 
-      <div class="section-label">✈️ TWA Hotel</div>
+      <div class="section-label">✈️ Check In</div>
       <label class="check-item" data-id="fri-checkin"><input type="checkbox"><span class="label-text">🏨 Check into TWA Hotel</span></label>
+
+      <div class="section-label">🌆 Evening</div>
+      <label class="check-item" data-id="fri-explore"><input type="checkbox"><span class="label-text">🏛️ Explore terminal + planes</span></label>
       <label class="check-item" data-id="fri-planes"><input type="checkbox"><span class="label-text">🛩️ Vintage airplanes</span></label>
-      <label class="check-item" data-id="fri-aviation"><input type="checkbox"><span class="label-text">✈️ Aviation exhibits</span></label>
-      <label class="check-item" data-id="fri-runway"><input type="checkbox"><span class="label-text">🛫 Runway viewing deck</span></label>
 
       <hr class="divider">
-      <div class="section-label">🍸 Dinner</div>
+      <div class="section-label">🍴 Dinner · At TWA Hotel</div>
       <div class="highlight">🍸 <strong>Connie Cocktail Lounge</strong> — dine inside a retro airplane!</div>
       <label class="check-item" data-id="fri-connie"><input type="checkbox"><span class="label-text">🍸 Connie Cocktail Lounge</span></label>
-      <div class="swipe-hint" style="margin-top:1rem;">🗽 Have an amazing trip!</div>
+      <div class="swipe-hint">← swipe →</div>
+    </div>
+
+    <!-- ═══════ SATURDAY ═══════ -->
+    <div class="day-panel" data-day="6">
+      <div class="day-title">🏠 Saturday — Fly Home <span class="badge" style="background:var(--sat)">Day 7</span></div>
+
+      <div class="section-label">☕ Morning</div>
+      <label class="check-item" data-id="sat-breakfast"><input type="checkbox"><span class="label-text">☕ Breakfast at TWA</span></label>
+
+      <hr class="divider">
+      <div class="section-label">✈️ Departure</div>
+      <label class="check-item" data-id="sat-flight"><input type="checkbox"><span class="label-text">✈️ Flight home</span></label>
+
+      <div class="swipe-hint" style="margin-top:2rem;">🗽 What an amazing trip!</div>
     </div>
 
   </div>
@@ -400,7 +398,8 @@ const DAYS = [
   { emoji: 'Tu', color: 'var(--tue)' },
   { emoji: 'We', color: 'var(--wed)' },
   { emoji: 'Th', color: 'var(--thu)' },
-  { emoji: 'Fr', color: 'var(--fri)' }
+  { emoji: 'Fr', color: 'var(--fri)' },
+  { emoji: 'Sa', color: 'var(--sat)' }
 ];
 
 let currentDay = 0;
